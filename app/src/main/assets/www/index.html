@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+测试页
+<script>
+    alert('alert');
+    var btn = document.createElement('button');
+    btn.textContent = 'click';
+    document.body.appendChild(btn);
+
+    btn.addEventListener('click', function() {
+        Android.showToast("你好你好");
+    });
+</script>
+</body>
+</html>
